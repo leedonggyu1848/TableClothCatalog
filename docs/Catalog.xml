@@ -1444,6 +1444,7 @@
 				<Package Name="TouchEnKey32" Url="https://www.cultureland.co.kr/resources/web/js/raonnx/nxKey/module/TouchEn_nxKey_32bit.exe" Arguments="/silent" />
 			</Packages>
 		</Service>
+
 		<!-- 일반 서비스 끝 -->
 
 		<!-- 교육기관 시작 - Category: Education -->
@@ -1503,5 +1504,17 @@ foreach ($EachMsi in $MsiList) {
 		</Service>
 		<!-- 교육기관 끝 -->
 		
+		<Service Id="5000x5000" DisplayName="5000x5000" Category="Education" Url="">
+			<Package>
+			</Package>
+		</Service>
+		<Service Id="5000x1000" DisplayName="5000x1000" Category="Education" Url="">
+			<Package>
+			</Package>
+		</Service>
+		<Service Id="1000x5000" DisplayName="1000x5000" Category="Education" Url="">
+			<Package>
+			</Package>
+		</Service>
 	</InternetServices>
 </TableClothCatalog>
